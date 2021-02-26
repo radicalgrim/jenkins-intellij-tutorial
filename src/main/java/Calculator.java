@@ -2,8 +2,7 @@ import java.util.UUID;
 
 class Calculator {
 
-    Calculator(){
-
+    Calculator() {
     }
 
     int add(int a , int b){
@@ -42,7 +41,7 @@ class Calculator {
     int fibonacciNumberFinder(int n) {
         if (n <= 1)
             return n;
-        return fibonacciNumberFinder(n-1) + fibonacciNumberFinder(n-2);
+        return fibonacciNumberFinder(n - 1) + fibonacciNumberFinder(n - 2);
     }
 
 
